@@ -30,7 +30,7 @@ Tile improvements enabled:
 * Strategos]",
 "[-25]% Culture cost of adopting new Policies"],
 				"requires": ["Craftsmanship"],
-				"row": 1,
+				"row": 3,
 				"column": 7
 			},
 			{
@@ -694,7 +694,7 @@ Plantation:
 "[-25]% Culture cost of adopting new Policies",
 ],
 				"requires": ["Code of Laws"],
-				"row": 7,
+				"row": 6,
 				"column": 4
 			},
 			{
@@ -708,7 +708,7 @@ Wonders enabled:
 //"Free [Envoy] appears",
 "[-20]% Culture cost of adopting new Policies"],
 				"requires": ["Foreign Trade"],
-				"row": 8,
+				"row": 7,
 				"column": 7
 			},
 			{
