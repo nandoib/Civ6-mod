@@ -272,8 +272,8 @@ Outback Station:
 * Ecotourism]",
 ],
 				"requires": ["Cultural Heritage","Rapid Deployment"],
-				"row": 1,
-				"column": 43
+				"row": 7,
+				"column": 62
 			},
 			{
 				"name": "Near Future Governance",
