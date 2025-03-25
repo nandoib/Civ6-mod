@@ -1,172 +1,169 @@
-[
-	{
-	"name": "Civic Tree",
-	"era": "Ancient era",
-	"uniques": [
-		"Each city founded increases culture cost of policies 100% less than normal",
-		"Free Social Policy"
-	],
-	"policies": [
-		{
-			"name": "Craftsmanship",
-			"uniques": [
-				"Governments enabled: Chiefdom",
-				"Policies enabled: Ilkum, Agoge",
-				"Tile improvements enabled: Chemamull, Sphinx",
-				"-25% Culture cost of adopting new Policies"
-			],
-			"requires": ["Code of Laws"],
-			"row": 1,
-			"column": 3
-		},
-		{
-			"name": "Military Tradition",
-			"uniques": [
-				"Policies enabled: Maneuver, Strategos",
-				"-25% Culture cost of adopting new Policies"
-			],
-			"requires": ["Craftsmanship"],
-			"row": 3,
-			"column": 5
-		},
-		{
-			"name": "Games and Recreation",
-			"uniques": [
-				"Policies enabled: Insulae",
-				"Districts enabled: Entertainment Complex, Street Carnival, Hippodrome",
-				"Wonders enabled: Colosseum",
-				"Buildings enabled: Arena, Tlachtli",
-				"-10% Culture cost of adopting new Policies"
-			],
-			"requires": ["State Workforce"],
-			"row": 1,
-			"column": 9
-		},
-		{
-			"name": "Military Training",
-			"uniques": [
-				"Policies enabled: Raid, Veterancy, Equestrian Orders",
-				"Wonder enabled: Statue of Zeus"
-			],
-			"requires": ["Games and Recreation", "Military Tradition"],
-			"row": 1,
-			"column": 11
-		},
-		{
-			"name": "Naval Tradition",
-			"uniques": [
-				"Policies enabled: Naval Tradition, Navigation"
-			],
-			"requires": ["Defensive Tactics"],
-			"row": 1,
-			"column": 15
-		},
-		{
-			"name": "Mercenaries",
-			"uniques": [
-				"Policies enabled: Professional Army, Sack, Trade Confederacy",
-				"Units enabled: Jong"
-			],
-			"requires": ["Feudalism", "Military Training"],
-			"row": 1,
-			"column": 17
-		},
-		{
-			"name": "Exploration",
-			"uniques": [
-				"Governments enabled: Merchant Republic",
-				"Policies enabled: Press Gangs, Native Conquest, Colonial Offices",
-				"Policies obsolete: Survey, Discipline, Urban Planning"
-			],
-			"requires": ["Mercenaries", "Medieval Faires"],
-			"row": 1,
-			"column": 21
-		},
-		{
-			"name": "Mercantilism",
-			"uniques": [
-				"Policies enabled: Logistics, Triangular Trade",
-				"Policies obsolete: Caravansaries",
-				"Units enabled: Winged Hussar, Privateer, Sea Dog",
-				"Camp: +1 Food, +1 Production"
-			],
-			"requires": ["Humanism"],
-			"row": 1,
-			"column": 25
-		},
-		{
-			"name": "Colonialism",
-			"uniques": [
-				"Policies enabled: Colonial Taxes, Raj",
-				"Policies obsolete: Maritime Industries",
-				"Tile improvement enabled: Ice Hockey Rink"
-			],
-			"requires": ["Mercantilism"],
-			"row": 1,
-			"column": 27
-		},
-		{
-			"name": "Natural History",
-			"uniques": [
-				"Districts enabled: Water Park, Copacabana",
-				"Units enabled: Archaeologist",
-				"Wonders enabled: Hermitage",
-				"Buildings enabled: Zoo, Thermal Bath, Ferris Wheel, Aquarium",
-				"Antiquity Site: Revealed on the map",
-				"Sphinx: +1 Culture",
-				"Ziggurat: +1 Culture"
-			],
-			"requires": ["Colonialism"],
-			"row": 1,
-			"column": 31
-		},
-		{
-			"name": "Conservation",
-			"uniques": [
-				"Policies enabled: Resource Management",
-				"Units enabled: Naturalist, Mountie",
-				"Forest: May be planted",
-				"Mekewap: +1 Food for every 2 adjacent Mekewaps"
-			],
-			"requires": ["Natural History", "Urbanization"],
-			"row": 1,
-			"column": 33
-		},
-		{
-			"name": "Capitalism",
-			"uniques": [
-				"Policies enabled: Market Economy, Laissez-Faire",
-				"Policies obsolete: Trade Confederation, Traveling Merchants",
-				"Buildings enabled: Shopping Mall"
-			],
-			"requires": ["Mass Media"],
-			"row": 1,
-			"column": 35
-		},
-		{
-			"name": "Suffrage",
-			"uniques": [
-				"Governments enabled: Democracy",
-				"Policies enabled: Their Finest Hour, Economic Union, New Deal, Arsenal of Democracy",
-				"Policies obsolete: Liberalism, Medina Quarter, Naval Infrastructure, Town Charters, Wisselbanken"
-			],
-			"requires": ["Ideology"],
-			"row": 1,
-			"column": 37
-		},
-		{
-			"name": "Cultural Heritage",
-			"uniques": [
-				"Policies enabled: Heritage Tourism",
-				"Wonders enabled: Sydney Opera House",
-				"Shipwreck: Revealed on the map",
-				"Mission: +2 Science"
-			],
-			"requires": ["Conservation"],
-			"row": 1,
-			"column": 39
-		}
-	]
+{
+  "name": "Civic Tree",
+  "era": "Ancient era",
+  "uniques": [
+    "Each city founded increases culture cost of policies 100% less than normal",
+    "Free Social Policy"
+  ],
+  "policies": [
+    {
+      "name": "Craftsmanship",
+      "uniques": [
+        "Governments enabled: Chiefdom",
+        "Policies enabled: Ilkum, Agoge",
+        "Tile improvements enabled: Chemamull, Sphinx",
+        "-25% Culture cost of adopting new Policies"
+      ],
+      "requires": ["Code of Laws"],
+      "row": 2,
+      "column": 2
+    },
+    {
+      "name": "Military Tradition",
+      "uniques": [
+        "Policies enabled: Maneuver, Strategos",
+        "-25% Culture cost of adopting new Policies"
+      ],
+      "requires": ["Craftsmanship"],
+      "row": 3,
+      "column": 3
+    },
+    {
+      "name": "Games and Recreation",
+      "uniques": [
+        "Policies enabled: Insulae",
+        "Districts enabled: Entertainment Complex, Street Carnival, Hippodrome",
+        "Wonders enabled: Colosseum",
+        "Buildings enabled: Arena, Tlachtli",
+        "-10% Culture cost of adopting new Policies"
+      ],
+      "requires": ["State Workforce"],
+      "row": 2,
+      "column": 6
+    },
+    {
+      "name": "Military Training",
+      "uniques": [
+        "Policies enabled: Raid, Veterancy, Equestrian Orders",
+        "Wonder enabled: Statue of Zeus"
+      ],
+      "requires": ["Games and Recreation", "Military Tradition"],
+      "row": 3,
+      "column": 5
+    },
+    {
+      "name": "Naval Tradition",
+      "uniques": [
+        "Policies enabled: Naval Tradition, Navigation"
+      ],
+      "requires": ["Defensive Tactics"],
+      "row": 4,
+      "column": 8
+    },
+    {
+      "name": "Mercenaries",
+      "uniques": [
+        "Policies enabled: Professional Army, Sack, Trade Confederacy",
+        "Units enabled: Jong"
+      ],
+      "requires": ["Feudalism", "Military Training"],
+      "row": 4,
+      "column": 10
+    },
+    {
+      "name": "Exploration",
+      "uniques": [
+        "Governments enabled: Merchant Republic",
+        "Policies enabled: Press Gangs, Native Conquest, Colonial Offices",
+        "Policies obsolete: Survey, Discipline, Urban Planning"
+      ],
+      "requires": ["Mercenaries", "Medieval Faires"],
+      "row": 5,
+      "column": 12
+    },
+    {
+      "name": "Mercantilism",
+      "uniques": [
+        "Policies enabled: Logistics, Triangular Trade",
+        "Policies obsolete: Caravansaries",
+        "Units enabled: Winged Hussar, Privateer, Sea Dog",
+        "Camp: +1 Food, +1 Production"
+      ],
+      "requires": ["Humanism"],
+      "row": 6,
+      "column": 14
+    },
+    {
+      "name": "Colonialism",
+      "uniques": [
+        "Policies enabled: Colonial Taxes, Raj",
+        "Policies obsolete: Maritime Industries",
+        "Tile improvement enabled: Ice Hockey Rink"
+      ],
+      "requires": ["Mercantilism"],
+      "row": 7,
+      "column": 16
+    },
+    {
+      "name": "Natural History",
+      "uniques": [
+        "Districts enabled: Water Park, Copacabana",
+        "Units enabled: Archaeologist",
+        "Wonders enabled: Hermitage",
+        "Buildings enabled: Zoo, Thermal Bath, Ferris Wheel, Aquarium",
+        "Antiquity Site: Revealed on the map",
+        "Sphinx: +1 Culture",
+        "Ziggurat: +1 Culture"
+      ],
+      "requires": ["Colonialism"],
+      "row": 8,
+      "column": 18
+    },
+    {
+      "name": "Conservation",
+      "uniques": [
+        "Policies enabled: Resource Management",
+        "Units enabled: Naturalist, Mountie",
+        "Forest: May be planted",
+        "Mekewap: +1 Food for every 2 adjacent Mekewaps"
+      ],
+      "requires": ["Natural History", "Urbanization"],
+      "row": 9,
+      "column": 20
+    },
+    {
+      "name": "Capitalism",
+      "uniques": [
+        "Policies enabled: Market Economy, Laissez-Faire",
+        "Policies obsolete: Trade Confederation, Traveling Merchants",
+        "Buildings enabled: Shopping Mall"
+      ],
+      "requires": ["Mass Media"],
+      "row": 10,
+      "column": 22
+    },
+    {
+      "name": "Suffrage",
+      "uniques": [
+        "Governments enabled: Democracy",
+        "Policies enabled: Their Finest Hour, Economic Union, New Deal, Arsenal of Democracy",
+        "Policies obsolete: Liberalism, Medina Quarter, Naval Infrastructure, Town Charters, Wisselbanken"
+      ],
+      "requires": ["Ideology"],
+      "row": 11,
+      "column": 24
+    },
+    {
+      "name": "Cultural Heritage",
+      "uniques": [
+        "Policies enabled: Heritage Tourism",
+        "Wonders enabled: Sydney Opera House",
+        "Shipwreck: Revealed on the map",
+        "Mission: +2 Science"
+      ],
+      "requires": ["Conservation"],
+      "row": 12,
+      "column": 26
+    }
+  ]
 }
-
-]
