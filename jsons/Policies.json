@@ -26,7 +26,7 @@
 				"-25% Culture cost of adopting new Policies"
 			],
 			"requires": ["Craftsmanship"],
-			"row": 1,
+			"row": 3,
 			"column": 5
 		},
 		{
