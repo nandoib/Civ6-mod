@@ -51,7 +51,7 @@ Buildings enabled:
 ],
 				"requires": ["State Workforce"],
 				"row": 4,
-				"column": 9
+				"column": 11
 			},
 			{
 				"name": "Military Training",
@@ -65,8 +65,8 @@ Wonder enabled:
 //"Free [Envoy] appears",
 ],
 				"requires": ["Games and Recreation","Military Tradition"],
-				"row": 5,
-				"column": 11
+				"row": 3,
+				"column": 14
 			},
 			{
 				"name": "Naval Tradition",
@@ -77,8 +77,8 @@ Wonder enabled:
 //"Free [Envoy] appears",
 ],
 				"requires": ["Defensive Tactics"],
-				"row": 6,
-				"column": 15
+				"row": 4,
+				"column": 18
 			},
 			{
 				"name": "Mercenaries",
@@ -92,8 +92,8 @@ Units enabled:
 //"Free [Envoy] appears",
 ],
 				"requires": ["Feudalism","Military Training"],
-				"row": 7,
-				"column": 17
+				"row": 3,
+				"column": 22
 			},
 			{
 				"name": "Exploration",
@@ -110,8 +110,8 @@ Policies obsolete:
 * Urban Planning]",
 ],
 				"requires": ["Mercenaries","Medieval Faires"],
-				"row": 8,
-				"column": 21
+				"row": 3,
+				"column": 26
 			},
 			{
 				"name": "Mercantilism",
@@ -351,8 +351,8 @@ Wonders enabled:
 * Apadana]",
 ],
 				"requires": ["State Workforce","Early Empire"],
-				"row": 4,
-				"column": 9
+				"row": 5,
+				"column": 11
 			},
 			{
 				"name": "Defensive Tactics",
@@ -365,7 +365,7 @@ Wonders enabled:
 ],
 				"requires": ["Games and Recreation","Political Philosophy"],
 				"row": 5,
-				"column": 11
+				"column": 14
 			},
 			{
 				"name": "Recorded History",
@@ -377,8 +377,8 @@ Wonders enabled:
 * Great Library]",
 ],
 				"requires": ["Drama and Poetry","Political Philosophy"],
-				"row": 5,
-				"column": 13
+				"row": 6,
+				"column": 14
 			},
 			{
 				"name": "Feudalism",
@@ -399,8 +399,8 @@ Stepwell:
 * +1 Faith]",
 ],
 				"requires": ["Defensive Tactics"],
-				"row": 6,
-				"column": 15
+				"row": 5,
+				"column": 18
 			},
 			{
 				"name": "Medieval Faires",
@@ -417,8 +417,8 @@ Wonders enabled:
 * Angkor Wat]",
 ],
 				"requires": ["Feudalism"],
-				"row": 7,
-				"column": 17
+				"row": 4,
+				"column": 22
 			},
 			{
 				"name": "Guilds",
@@ -436,8 +436,8 @@ Improvements enabled:
 * Polder]",
 ],
 				"requires": ["Feudalism","Civil Service"],
-				"row": 7,
-				"column": 19
+				"row": 5,
+				"column": 22
 			},
 			{
 				"name": "Humanism",
@@ -455,8 +455,8 @@ Tile improvements enabled:
 * Revelation]",
 					"[Great Artist] is earned [15]% faster"],
 				"requires": ["Medieval Faires","Guilds"],
-				"row": 8,
-				"column": 21
+				"row": 4,
+				"column": 26
 			},
 			{
 				"name": "Diplomatic Service",
@@ -470,8 +470,8 @@ Piridaeza:
 * +1 Culture]",
 ],
 				"requires": ["Guilds"],
-				"row": 8,
-				"column": 23
+				"row": 5,
+				"column": 26
 			},
 			{
 				"name": "Civil Engineering",
@@ -725,8 +725,8 @@ Buildings enabled:
 "[-10]% Culture cost of adopting new Policies"
 ],
 				"requires": ["Early Empire"],
-				"row": 4,
-				"column": 9
+				"row": 6,
+				"column": 11
 			},
 			{
 				"name": "Theology",
@@ -743,8 +743,8 @@ Buildings enabled:
 //"Free [Envoy] appears",
 ],
 				"requires": ["Drama and Poetry","Mysticism"],
-				"row": 5,
-				"column": 13
+				"row": 7,
+				"column": 14
 			},
 			{
 				"name": "Civil Service",
@@ -760,7 +760,7 @@ Mekewap:
 ],
 				"requires": ["Defensive Tactics","Recorded History"],
 				"row": 6,
-				"column": 15
+				"column": 18
 			},
 			{
 				"name": "Divine Right",
@@ -781,7 +781,7 @@ Units enabled:
 ],
 				"requires": ["Civil Service","Theology"],
 				"row": 7,
-				"column": 19
+				"column": 22
 			},
 			{
 				"name": "Reformed Church",
@@ -798,8 +798,8 @@ Tile improvements enabled:
 * Golf Course]",
 ],
 				"requires": ["Divine Right"],
-				"row": 8,
-				"column": 23
+				"row": 6,
+				"column": 26
 			},
 			{
 				"name": "The Enlightenment",
