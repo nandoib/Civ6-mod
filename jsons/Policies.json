@@ -19,8 +19,8 @@ Tile improvements enabled:
 *Sphinx]",
 "[-25]% Culture cost of adopting new Policies"],
 				"requires": ["Code of Laws"],
-				"row": 2,
-				"column": 3
+				"row": 3,
+				"column": 4
 			},
 			{
 				"name": "Military Tradition", 
@@ -30,8 +30,8 @@ Tile improvements enabled:
 * Strategos]",
 "[-25]% Culture cost of adopting new Policies"],
 				"requires": ["Craftsmanship"],
-				"row": 3,
-				"column": 5
+				"row": 1,
+				"column": 7
 			},
 			{
 				"name": "Games and Recreation",
@@ -318,8 +318,8 @@ Policies enabled:
 "[-25]% Culture cost of adopting new Policies"
 ],
 				"requires": ["Craftsmanship"],
-				"row": 3,
-				"column": 8
+				"row": 4,
+				"column": 7
 			},
 			{
 				"name": "Early Empire",
@@ -334,8 +334,8 @@ Tile impromements enabled:
 "[-10]% Culture cost of adopting new Policies",
 ],
 				"requires": ["Craftsmanship"],
-				"row": 3,
-				"column": 9
+				"row": 5,
+				"column": 7
 			},
 			{
 				"name": "Political Philosophy",
@@ -694,8 +694,8 @@ Plantation:
 "[-25]% Culture cost of adopting new Policies",
 ],
 				"requires": ["Code of Laws"],
-				"row": 2,
-				"column": 6
+				"row": 7,
+				"column": 4
 			},
 			{
 				"name": "Mysticism",
@@ -708,7 +708,7 @@ Wonders enabled:
 //"Free [Envoy] appears",
 "[-20]% Culture cost of adopting new Policies"],
 				"requires": ["Foreign Trade"],
-				"row": 3,
+				"row": 8,
 				"column": 7
 			},
 			{
