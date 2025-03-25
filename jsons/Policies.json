@@ -333,7 +333,7 @@ Tile impromements enabled:
 "Enables Open Borders agreements",
 "[-10]% Culture cost of adopting new Policies",
 ],
-				"requires": ["Craftsmanship"],
+				"requires": ["Foreign Trade"],
 				"row": 5,
 				"column": 7
 			},
